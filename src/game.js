@@ -85,7 +85,7 @@ var commands = [
         }
     },
     {
-        patterns: ["look around", "check area", "search", "look"],
+        patterns: [/^look around$/i, /^check area$/i, /^search$/i, /^look$/i],
         process: function(cmd, actor) {
             return {message: "Nothing but trees here."};
         }
