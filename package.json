@@ -1,26 +1,26 @@
 {
   "name": "wwbd",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "What Would Bob Do?",
   "main": "src/wwbd.js",
   "dependencies": {
     "darmok": "0.1.*",
     "lodash": "2.4.*",
     "prompt": "0.2.*",
-    "synchronize": "0.9.*",
     "colors": "0.6.*",
-    "string-format": "0.2.*"
+    "sprintf-js": "0.0.*"
   },
   "scripts": {
   },
+  "bin": "./wwbd",
   "repository": {
     "type": "git",
     "url": "https://github.com/forana/wwbd"
   },
   "keywords": [
-    "space",
+    "bob",
     "game",
-    "bob"
+    "adventure"
   ],
   "author": "Alex Foran <alex@alexforan.com> (http://alexforan.com/)",
   "license": "WTFPL",
