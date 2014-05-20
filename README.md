@@ -28,7 +28,6 @@ Good luck.
 1. Run `npm install -g` 
 
 ## Running
-(TODO - make easier)
 
 ```
 $ wwbd
